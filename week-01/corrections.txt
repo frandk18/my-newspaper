@@ -1,0 +1,15 @@
+1. El tag <strong> se utiliza para poner énfasis en una
+   palabra, casi como un keyword. Para insertar la propiedad
+   de negrita utilizar el tag <b>.
+2. El titulo, autor, fecha de publicación, etc deberían ir en un
+   tag <header>, y de esta manera tener una estructura:
+   <main>
+        <article>
+            <header>
+            .
+            .
+            .
+            </header>
+        </article>
+    <main>
+    
