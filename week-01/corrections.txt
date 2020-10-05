@@ -12,5 +12,4 @@
             </header>
         </article>
     <main>
-3.
-    
+3. Eliminar los espacios en blanco innecesarios, instalar plugin "Trailing Spaces" para tenerlos identificados constantemente.
