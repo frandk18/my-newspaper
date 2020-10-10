@@ -1,5 +1,5 @@
 @font-face{
-    font-family: Black-Regular; 
+    font-family: 'Black-Regular';
     src: url('./Black-Regular.ttf');}
 .back{
     height: 480px;
@@ -22,7 +22,7 @@
     margin: 0 0 auto;
     padding: 0 2px 1px;
     color: #d34600;
-    font-family: Black-Regular;
+    font-family: 'Black-Regular';
     font-size: 14px;
     line-height: 1;
     font-weight: 700;
@@ -34,7 +34,7 @@
 .title{
     margin: 0 6px 0 0;
     color: #303030;
-    font-family: Black-Regular;
+    font-family: 'Black-Regular';
     font-size: 32px;
     line-height: 40px;
     font-weight: 700;}
@@ -44,12 +44,12 @@
 .author{
     margin: 0 6px 0 0;
     color: #303030;
-    font-family: Black-Regular;
+    font-family: 'Black-Regular';
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-color: lightskyblue;}
+    text-decoration-color: #0098fe;;}
 .editorial{
     display: inline;
     margin: 1px 0 0;
@@ -75,26 +75,43 @@
     margin: 6px 0 0;
     color: #303030;
     font: 18px/27px 'Georgia Pro',Georgia,'Droid Serif',serif;}
+.video{
+    margin: 12px 0 30px;
+    flex-flow: column;}
+.title-video{
+    margin: 8px 0 11px;
+    font-weight: 700;
+    font-family: 'Black-Regular';
+    font-size: 16px;
+    line-height: 20px;}
+.epigraph-video{
+    margin: -7px 0 0;
+    font: 12px/15px 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;}
 .paragraphs{
     margin: 14px 0;}
-.img1{
+.centered-fig{
     width: 660px;
     margin: 30px 0;}
-.img2{
+.right-fig{
     width: 300px;
     margin: 10px 0 24px 31px;
     float: right;
     clear: right;}
-.epigraph{
+.epigraph-text{
     margin: 6px 0 0;
     color: #303030;
     font: 12px/15px 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;}
+.epigraph-line{
+    content: '';
+    width: 105px;
+    height: 1px;
+    margin: 11px 0 0;
+    background: #0098fe;}
 .link{
     color: #303030;
     text-decoration: underline;
-    text-decoration-color: lightskyblue;}
+    text-decoration-color:#0098fe;}
 .footer{
     padding: 50px 0 58px;
     font: 12px/14px 'Georgia Pro',Georgia,'Droid Serif',serif;
     text-align: center;}
-    
