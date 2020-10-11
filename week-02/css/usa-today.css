@@ -1,6 +1,6 @@
 @font-face{
-    font-family: 'Black-Regular';
-    src: url('./Black-Regular.ttf');}
+    font-family: 'Montserrat-ExtraBold';
+    src: url('./Montserrat-ExtraBold.ttf');}
 .back{
     height: 480px;
     margin: 0 0 -480px;
@@ -22,7 +22,7 @@
     margin: 0 0 auto;
     padding: 0 2px 1px;
     color: #d34600;
-    font-family: 'Black-Regular';
+    font-family: 'Montserrat-ExtraBold';
     font-size: 14px;
     line-height: 1;
     font-weight: 700;
@@ -36,7 +36,7 @@
 .title{
     margin: 0 6px 0 0;
     color: #303030;
-    font-family: 'Black-Regular';
+    font-family: 'Montserrat-ExtraBold';
     font-size: 32px;
     line-height: 40px;
     font-weight: 700;}
@@ -46,7 +46,7 @@
 .author{
     margin: 0 6px 0 0;
     color: #303030;
-    font-family: 'Black-Regular';
+    font-family: 'Montserrat-ExtraBold';
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
@@ -89,7 +89,7 @@
 .title-video{
     margin: 8px 0 11px;
     font-weight: 700;
-    font-family: 'Black-Regular';
+    font-family: 'Montserrat-ExtraBold';
     font-size: 16px;
     line-height: 20px;}
 .epigraph-video{
