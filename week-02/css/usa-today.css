@@ -1,27 +1,34 @@
 @font-face{
     font-family: 'Montserrat-ExtraBold';
-    src: url('./Montserrat-ExtraBold.ttf');}
+    src: url('./Montserrat-ExtraBold.ttf');
+}
+body{
+    margin: unset;
+}
+.front{
+    display: flex;
+    justify-content: center;
+}
 .back{
     height: 480px;
-    margin: 0 0 -480px;
-    background: linear-gradient(150deg,#d34600,50%,#fa9632);}
+    width: 100%;
+    position: absolute;
+    display: inline-table;
+    z-index: -1;
+    background: linear-gradient(150deg,#d34600,50%,#fa9632);
+}
 .main{
-    align-content: start;
     width: 1020px;
-    min-height: 480px;
-    margin: 30px auto 0;
+    margin-top: 30px;
     padding: 0 60px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    flex-shrink: 0;
-    position: relative;
-    background: #fff;}
+    background: #fff;
+}
 .exit{
     display: flex;
     width: 100%;
     height: 20px;
-    margin: 24px 0 0;}
+    margin: 24px 0 0;
+}
 .navegation{
     display: inline-flex;
     margin: 0 0 auto;
@@ -32,22 +39,27 @@
     line-height: 1;
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-color: #d34600;}
+    text-decoration-color: #d34600;
+}
 .navegation:hover{
-    color: indigo;}
+    color: indigo;
+}
 .article{
     width: 660px;
-    margin-right: 20px;}
+    margin-right: 20px;
+}
 .title{
     margin: 0 6px 0 0;
     color: #303030;
     font-family: 'Montserrat-ExtraBold';
     font-size: 33px;
     line-height: 38px;
-    font-weight: 700;}
+    font-weight: 700;
+}
 .staff{
     display: inline-flex;
-    margin: 12px 6px 0 0;}
+    margin: 12px 6px 0 0;
+}
 .author{
     margin: 0 6px 0 0;
     color: #303030;
@@ -56,69 +68,83 @@
     line-height: 20px;
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-color: #0098fe;;}
+    text-decoration-color: #0098fe;;
+}
 .editorial{
-    display: inline;
     margin: 1px 0 0;
     color: #303030;
     font-family: 'Georgia Pro',Georgia,'Droid Serif',serif;
     font-size: 16px;
-    line-height: 20px;}
+    line-height: 20px;
+}
 .date{
     margin: 4px 0;
     color: #626262;
     font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     font-size: 12px;
-    line-height: 15px;}
+    line-height: 15px;
+}
 .container{
     margin: 6px 0 0;
     color: #303030;
     font-family: 'Georgia Pro',Georgia,'Droid Serif',serif;
     font-size: 18px;
-    line-height: 27px;}
+    line-height: 27px;
+}
 .video{
     margin: 12px 0 30px;
-    flex-flow: column;}
+    flex-flow: column;
+}
 .title-video{
     margin: 8px 0 11px;
     font-weight: 700;
     font-family: 'Montserrat-ExtraBold';
     font-size: 16px;
-    line-height: 20px;}
+    line-height: 20px;
+}
 .epigraph-video{
     margin: -7px 0 0;
     font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     font-size: 12px;
-    line-height: 15px;}
+    line-height: 15px;
+}
 .paragraphs{
-    margin: 14px 0;}
+    margin: 14px 0;
+}
 .centered-fig{
     width: 660px;
-    margin: 30px 0;}
+    margin: 30px 0;
+}
+.container_img{
+    display: flex;
+}
 .right-fig{
     width: 300px;
     margin: 10px 0 24px 31px;
-    float: right;
-    clear: right;}
+}
 .epigraph-text{
     margin: 6px 0 0;
     color: #303030;
     font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     font-size: 12px;
-    line-height: 15px;}
+    line-height: 15px;
+}
 .epigraph-line{
     content: '';
     width: 105px;
     height: 1px;
     margin: 11px 0 0;
-    background: #0098fe;}
+    background: #0098fe;
+}
 .link{
     color: #303030;
     text-decoration: underline;
-    text-decoration-color:#0098fe;}
+    text-decoration-color:#0098fe;
+}
 .footer{
     padding: 50px 0 58px;
     font-family: 'Georgia Pro',Georgia,'Droid Serif',serif;
     font-size: 12px;
     line-height: 14px;
-    text-align: center;}
+    text-align: center;
+}
