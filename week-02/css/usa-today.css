@@ -10,10 +10,10 @@ body{
     justify-content: center;
 }
 .back{
-    height: 480px;
-    width: 100%;
     position: absolute;
     z-index: -1;
+    height: 480px;
+    width: 100%;
     background: linear-gradient(150deg,#d34600,50%,#fa9632);
 }
 .main{
@@ -33,12 +33,13 @@ body{
     margin: 0 0 auto;
     padding: 0 2px 1px;
     color: #d34600;
-    font-family: 'Montserrat-ExtraBold';
+    font-weight: 700;
     font-size: 14px;
     line-height: 1;
-    font-weight: 700;
+    font-family: 'Montserrat-ExtraBold';
     text-decoration: underline;
     text-decoration-color: #d34600;
+    text-transform: uppercase;
 }
 .navegation:hover{
     color: indigo;
@@ -50,10 +51,10 @@ body{
 .title{
     margin: 0 6px 0 0;
     color: #303030;
-    font-family: 'Montserrat-ExtraBold';
+    font-weight: 700;
     font-size: 33px;
     line-height: 38px;
-    font-weight: 700;
+    font-family: 'Montserrat-ExtraBold';
 }
 .staff{
     display: inline-flex;
@@ -75,6 +76,7 @@ body{
     font-family: 'Georgia Pro',Georgia,'Droid Serif',serif;
     font-size: 16px;
     line-height: 20px;
+    text-transform: uppercase;;
 }
 .date{
     margin: 4px 0;
@@ -91,24 +93,36 @@ body{
     line-height: 27px;
 }
 .video{
-    margin: 12px 0 30px;
     flex-flow: column;
+    margin: 12px 0 30px;
 }
 .title-video{
     margin: 8px 0 11px;
     font-weight: 700;
-    font-family: 'Montserrat-ExtraBold';
     font-size: 16px;
     line-height: 20px;
+    font-family: 'Montserrat-ExtraBold';
 }
 .epigraph-video{
     margin: -7px 0 0;
-    font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     font-size: 12px;
     line-height: 15px;
+    font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+}
+.epigraph-line{
+    width: 105px;
+    height: 1px;
+    margin: 11px 0 0;
+    background: #0098fe;
+    content: '';
 }
 .paragraphs{
     margin: 14px 0;
+}
+.link{
+    color: #303030;
+    text-decoration: underline;
+    text-decoration-color:#0098fe;
 }
 .centered-fig{
     width: 660px;
@@ -124,26 +138,14 @@ body{
 .epigraph-text{
     margin: 6px 0 0;
     color: #303030;
-    font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     font-size: 12px;
     line-height: 15px;
-}
-.epigraph-line{
-    content: '';
-    width: 105px;
-    height: 1px;
-    margin: 11px 0 0;
-    background: #0098fe;
-}
-.link{
-    color: #303030;
-    text-decoration: underline;
-    text-decoration-color:#0098fe;
+    font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
 }
 .footer{
     padding: 50px 0 58px;
-    font-family: 'Georgia Pro',Georgia,'Droid Serif',serif;
     font-size: 12px;
     line-height: 14px;
+    font-family: 'Georgia Pro',Georgia,'Droid Serif',serif;
     text-align: center;
 }
